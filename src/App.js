@@ -39,7 +39,7 @@ function App() {
     <div className="App">
       <Header title = "My Todos List" />
       <Todos todos = {todos} onDelete = { onDelete} />
-      {/* <Footer /> */}
+      <Footer />
 
     </div>
   );
